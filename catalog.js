@@ -30,7 +30,7 @@ const catalog = [
         id: 6,
         name: "Лучше звоните Солу",
         childIds: null,
-        ufl: "https://www.kinopoisk.ru/series/796660/"
+        url: "https://www.kinopoisk.ru/series/796660/"
     },
     {
         id: 7,
