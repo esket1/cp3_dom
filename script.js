@@ -12,15 +12,14 @@ function showHide(event, ul) {
 }
 
 function makeList(items, catalog) {
-    const ul = document.createElement('ul')
-
+    const ul = document.createElement("ul")
     items.forEach(function (itemId) {
         const item = catalog.find(i =>
             i.id === itemId
         )
         if (!item) return
 
-        const li = document.createElement('li')
+        const li = document.createElement("li")
         li.textContent = item.name
 
         if (item.childIds) {
